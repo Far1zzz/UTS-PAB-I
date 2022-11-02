@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
                 else if(!cbConfirm.isChecked()){
                     Toast.makeText(MainActivity.this, "Check Box Belom Di Centang", Toast.LENGTH_SHORT).show();
                 }
+                else if (sp.equalsIgnoreCase("Jalur Pendaftaran")){
+                    Toast.makeText(MainActivity.this, "Jalur Pendaftaran Belum dipilih", Toast.LENGTH_SHORT).show();
+                }
                 else{
                     Intent geser = new Intent(MainActivity.this, MainActivity2.class);
                     geser.putExtra("xnama", namaLengkap);
