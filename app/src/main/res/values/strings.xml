@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UTS-PAB-1</string>
+    <string-array name="jalurPendaftaran">
+        <item>Jalur Pendaftaran</item>
+        <item>Tes Tertulis</item>
+        <item>Jalur Tanpa Tes</item>
+        <item>Ujian Saringan Masuk</item>
+    </string-array>
+</resources>
